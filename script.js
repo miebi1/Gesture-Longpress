@@ -2,7 +2,7 @@
 var hammerLongPress = new Hammer(document.getElementById('gestureBox'));
 
 // Display alert for long press gesture
-alert("Long press to increase the box size.");
+alert("Long press the blue box that appears next to increase its size.");
 
 // Unique gesture interaction for long press
 hammerLongPress.on("press pressup", function (event) {
